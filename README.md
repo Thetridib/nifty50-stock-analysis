@@ -9,27 +9,6 @@ It demonstrates the complete data analytics workflow — from raw data cleaning 
 
 This project is ideal for resume, GitHub portfolio, and LinkedIn showcase.
 
-📁 Project Structure
-nifty50-stock-analysis/
-│
-├── data/                 → Raw & cleaned stock data (CSV)
-│   ├── TCS.csv
-│   ├── INFY.csv
-│   ├── RELIANCE.csv
-│   ├── HDFCBANK.csv
-│   └── clean_nifty50.csv
-│
-├── notebooks/            → Python data preparation notebook
-│   └── data_cleaning.ipynb
-│
-├── sql/                  → SQL insights & analysis
-│   └── analysis_queries.sql
-│
-├── dashboard/            → Power BI dashboard
-│   ├── NIFTY50_Dashboard.pbix
-│   └── dashboard_screenshot.png
-│
-└── README.md             → Project documentation
 
 🧹 1. Data Cleaning & Preparation (Excel + Python)
 
@@ -44,6 +23,7 @@ Monthly Category
 Merged all four company datasets using Pandas.
 
 Exported final dataset: clean_nifty50.csv
+
 
 🧠 2. SQL Analysis (PostgreSQL)
 
@@ -62,6 +42,7 @@ Total monthly traded volume
 Distinct companies, row counts, checks
 
 SQL file: sql/analysis_queries.sql
+
 
 📊 3. Power BI Dashboard
 
